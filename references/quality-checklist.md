@@ -20,6 +20,16 @@
 - [ ] Missing or inconsistent metrics remain outside résumé until resolved; do not invent or simply accept a contradicted 200% claim.
 - [ ] JD keywords justified by evidence; no false ATS guarantees.
 
+## Resume-writing standards (both paths)
+- [ ] Read `references/user-resume-best-practices.md` before drafting and use its seven sections as the owner's editorial checklist.
+- [ ] Job-specific résumé is persuasive to recruiters and hiring managers and parseable with standard ATS headings.
+- [ ] One-page and five-year focus applied only as preferences; all source jobs, metrics and achievements preserved in the original / Master Resume Database; material omissions approved or disclosed.
+- [ ] Full university and degree names, graduation month/year and labeled education bullets used where supported.
+- [ ] STAR-informed bullets with strong verbs, personal actions, actual scope and evidenced results; no borrowed statistics or invented qualifications.
+- [ ] Qualitative recognition, adoption, progression and foundational contributions highlighted only when sourced.
+- [ ] Consistent black-and-white ATS-safe styling for new documents; approved Path A original preserved.
+- [ ] Skills and interests labeled and source-grounded; language proficiency never assumed; no empty filler entries.
+
 ## Resume formatting
 - [ ] Existing résumé typography, section order, margin, density, bullets and bottom whitespace preserved unless change agreed.
 - [ ] Dates at far-right via actual tab stops.
