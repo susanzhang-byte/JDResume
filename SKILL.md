@@ -27,9 +27,10 @@ Use available native interactive form controls where supported; otherwise provid
 **Form 2 — Experience, projects, and impact (one submission plus repeatable experience block):**
 - Employer/organization, role, start/end month/year, experience type; add multiple entries or paste all at once
 - What did you personally do? (plain-language responsibilities, tools, workflow, team use)
+- **Optional repeatable Achievement Builder inside each experience:** include an **Add achievement** action so applicants can record multiple distinct accomplishments without leaving Form 2. For each achievement collect (a) **Action** — what they personally did; (b) **Scope** — people, clients, projects, processes, budget or audience affected; (c) **Result** — qualitative outcome and numerical metric where available; (d) **Evidence** — before/after, units, period, measurement/source, and whether individual or team/campaign result. Use 2–3 compact inputs by default (Action; Scope; Result), with optional expandable measurement details. Permit zero achievements, partial entries, and a plain-text paste fallback. Do not turn the optional builder into a fourth form or extra required interview turns.
 - Key result(s): metrics reported **with before/after numbers OR metric + source/time periods** where known; whether result is personal, team or organization-level
 - Projects, volunteer work, student organizations, freelance, course work (can be 'none')
-- Allow one textarea to paste a full career history instead of many fields; parse and ask for corrections only if material
+- Allow one textarea to paste a full career history instead of many fields; parse and ask for corrections only if material. Support an **unlimited number of jobs and achievements per job**. Carry each achievement as its own record into the Master Resume Database; do not merge or discard achievements simply to make a résumé shorter.
 
 **Form 3 — Skills and confirmation (one submission):**
 - AI/Technical Tools, Analytics/Creative Tools, Professional Skills, Languages **separately**, optional proficiency
@@ -38,7 +39,7 @@ Use available native interactive form controls where supported; otherwise provid
 
 Ask **at most one additional grouped clarification round** when needed, targeting factual contradictions and high-impact claims. If still incomplete, produce a useful draft with unresolved items in the verification report rather than prolonging the interview. Do not require independent access to employer reports to draft applicant-confirmed, clearly delimited metrics.
 
-Build a separate **Master Resume Database** in portable JSON/Markdown with evidence provenance and confidence, as specified in `references/master-database-schema.md`. Do not claim saved persistence until actual export. Once candidate reviews database, **request the JD**. Preserve master independently of all tailored versions. When JD arrives, prepare ATS-friendly draft and files.
+Build a separate **Master Resume Database** in portable JSON/Markdown with separate experience and achievement IDs, action/scope/result/evidence fields, evidence provenance and confidence, as specified in `references/master-database-schema.md`. Do not claim saved persistence until actual export. Once candidate reviews database, **request the JD**. Preserve master independently of all tailored versions. When JD arrives, prepare ATS-friendly draft and files.
 
 ## Evidence-first metric decision policy — IMPORTANT
 **Never silently erase useful applicant-reported numbers merely because an internal report is unavailable to the AI.** Apply this decision tree:
