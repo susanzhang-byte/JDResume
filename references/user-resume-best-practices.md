@@ -1,6 +1,6 @@
 # Resume Best Practices — User-Supplied Standards (V1)
 
-Source: user-attached **Resume best pratices.txt**, eight numbered sections. These are the owner's editorial defaults for JDResume V1, not independently validated ATS vendor rules. Apply alongside `SKILL.md`'s evidence preservation, original-format fidelity, and human-review requirements. A conflict must be explained, not silently resolved by deleting information.
+Source: user-attached **Resume best pratices.txt**, seven numbered sections. These are the owner's editorial defaults for JDResume V1, not independently validated ATS vendor rules. Apply alongside `SKILL.md`'s evidence preservation, original-format fidelity, and human-review requirements. A conflict must be explained, not silently resolved by deleting information.
 
 ## 1. Resume Writing Tips — Strategic Principles for Maximum Impact
 - Treat the résumé as a strategic marketing document with an interview objective. Focus on compelling selling points rather than narrating an entire life story.
