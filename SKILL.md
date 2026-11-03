@@ -10,6 +10,9 @@ This skill expedites **educational résumé drafts**, not automatic applications
 
 **Core V2 changes:** The No-résumé path uses **three compact grouped forms** instead of an extended one-question-per-turn interview. Ask clarifying questions only for critical missing information or contradictory facts, preferably in one short batch. Do not force the user through metric interrogation one question at a time. Preserve meaningful growth metrics in **draft** bullets when applicant confirms plausible values, comparable measurement, and appropriate attribution; distinguish applicant-reported from independently verified in the accompanying audit. Do not impose independent employer-document access as a prerequisite to drafting an applicant-confirmed, appropriately qualified achievement.
 
+## Résumé writing standards — both paths
+Read **`references/user-resume-best-practices.md`** and follow the owner's attached standards in addition to the V2 evidence rules. Write for both ATS parsing and human decision-makers. Use a clear, black-and-white, single-column presentation (unless preserving an approved Path A original), full degree/university names, graduation month/year, labeled education bullets, strong action verbs, **Situation–Task–Action–Result** framing, quantitatively grounded or evidence-backed qualitative results, and labeled skills/languages. Default to a one-page, relevance-focused output where feasible, with particular attention to recent experience; **do not automatically delete work older than five years or any applicant-reported metrics**. Do not transform the reference's illustrative STAR examples into applicant facts. Preserve all original Path A source claims and all Path B Master Resume Database achievements. When content conflicts with page length, explain the tradeoff and request approval for material omissions. If the user gives an approved source layout for Path A, preserve it unless they approve changes.
+
 ## Entry point
 Ask **“Do you already have a résumé? Yes / No”** unless answered. Both paths request a target JD, but the No path first collects a reusable database. Accept partial form submissions and 'unknown' / 'skip'.
 
@@ -56,6 +59,8 @@ Build a separate **Master Resume Database** in portable JSON/Markdown with separ
 These are examples of *draft-level, applicant-confirmed* claims, not independent proof about the real Dodgers. If the two periods are not confirmed comparable, leave that precision outside the résumé and flag it.
 
 ### Shared tailoring process
+Apply the seven-section user-supplied résumé standards throughout drafting and QA, not only in the intake forms. For Path B, translate each Achievement Builder entry into a concise action + method + scope + result bullet using only recorded evidence. Where numbers are not available, use evidenced recognition, adoption, progression or foundational contributions. Maintain a comprehensive master history and make a separate JD-targeted selection; never erase master records. For Path A, preserve original achievements by default and obtain approval for meaningful removals.
+
 Parse JD into role requirements and truthful evidence. Map each requirement to `documented / applicant-reported confirmed / unresolved / not demonstrated`. Use accurate JD keywords only if covered by applicant evidence. Prefer concise accomplishment bullets with confirmed outcomes; keep resume readable rather than applying rigid maximal compression. Deliver a draft promptly instead of repeatedly circling one figure.
 
 ### Layout and deliverables
@@ -67,4 +72,4 @@ No posting of private records to public GitHub; no merging with main without exp
 **EDUCATIONAL EXERCISE — DRAFT ONLY. Applicant must check all facts, source metrics, claims, and layout before applying. Never fabricate or exaggerate. ATS readability is not a hiring guarantee.**
 
 ## References
-Read `references/interview-guide.md`, `references/master-database-schema.md`, `references/quality-checklist.md`, `examples/illustrative-example.md`.
+Read **`references/user-resume-best-practices.md`**, `references/interview-guide.md`, `references/master-database-schema.md`, `references/quality-checklist.md`, `examples/illustrative-example.md`.
