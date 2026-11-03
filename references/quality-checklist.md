@@ -3,16 +3,16 @@
 ## A. Truthfulness and provenance
 - [ ] Every employer, title, date, degree and certification matches user-supplied records.
 - [ ] Every AI tool or technology was explicitly confirmed as used; familiarity is not misrepresented as integration or deployment.
-- [ ] Every metric is applicant-confirmed and substantiable. If not, remove it or flag it for verification; never substitute a guessed number.
+- [ ] **Every original source-résumé metric and substantive figure is preserved by default in the educational draft.** Applicant-provided is not independently verified; record the source and verification need in a separate checklist. Never delete simply because the AI did not see an internal report, and never substitute a guessed number. For substantive discrepancies, request approval before changing or omitting the source claim.
 - [ ] The JD's requirements are never copied as applicant achievements without evidence.
 - [ ] A proof of concept, prototype, pilot, and production rollout are distinguished.
 - [ ] No formal AI governance, compliance, security, or NIST certification is claimed without evidence.
 - [ ] Draft contains no invented ROI, ATS score, recruiter endorsement, or outcome.
 
 ## B. Content change control
-- [ ] Original roles and bullets inventoried before tailoring.
+- [ ] Original roles, bullets, figures, numerical baselines and outcomes inventoried and compared against the final résumé before tailoring.
 - [ ] Proposed changes logged: KEEP / REWRITE / CONDENSE / OMIT / ADD, with rationale.
-- [ ] Material deletion approved or clearly disclosed, particularly early careers that demonstrate transferable value.
+- [ ] Material deletion of original information, **especially quantitative achievements, revenue, growth, adoption percentages and experience**, has applicant approval; no automatic metric stripping or unexplained replacement.
 - [ ] Job keywords inserted only where applicant evidence justifies them.
 - [ ] No personal résumé examples or private applicant information committed to public repositories.
 
