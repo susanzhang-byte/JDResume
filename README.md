@@ -22,6 +22,9 @@ The first V2 interview took too many turns and omitted applicant-supplied growth
 ### Optional Achievement Builder in Form 2
 For every job or internship, users can click **Add achievement** repeatedly to capture **Action / Scope / Result / Evidence**, including concrete metrics and how they were measured. The builder is optional, accepts partial entries, and stays within the existing second form. Users can alternatively paste an entire work history. All accomplishments are preserved separately in the master database; job-specific résumé bullets are selected only after receiving the target JD.
 
+### User-supplied résumé-writing standards
+V2 now follows [Resume Best Practices](references/user-resume-best-practices.md) for **both** existing-résumé tailoring and from-scratch drafting. The reference covers the résumé as an interview-focused marketing tool, ATS and human readers, education naming/date conventions, experience structure, STAR accomplishment bullets, qualitative evidence of impact, and relevant skills/interests. Its one-page/last-five-year emphasis is a *preference*, not permission to delete source experience, quantified achievements or entries in the reusable Master Resume Database. No invented facts or skills; source layout preserved by default for Path A.
+
 ### Quality retained
 - Original résumé layout and role coverage preserved (Path A), including right-aligned job dates and page density.
 - Single-column ATS-readable U.S. layout (Path B); AI/technical and language skills separate.
@@ -33,6 +36,7 @@ For every job or internship, users can click **Add achievement** repeatedly to c
 - [references/interview-guide.md](references/interview-guide.md) — three-form intake
 - [references/master-database-schema.md](references/master-database-schema.md) — portable evidence model
 - [references/quality-checklist.md](references/quality-checklist.md) — acceptance tests
+- [references/user-resume-best-practices.md](references/user-resume-best-practices.md) — owner-supplied résumé-writing standards
 - [examples/illustrative-example.md](examples/illustrative-example.md) — fictional examples
 
 GitHub hosting does not install the skill into ChatGPT automatically. This branch can be tested without merging.
