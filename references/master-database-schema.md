@@ -23,7 +23,11 @@ Keep source inventory independent from job-specific résumé versions. Never inf
       "projects": [],
       "achievements": [
         {
+          "id": "exp-001-ach-001",
           "action": "",
+          "scope_details": "",
+          "result": "",
+          "evidence_notes": "",
           "scope": "individual | team | campaign | organization | unknown",
           "result_wording": "",
           "measurement": "",
@@ -50,6 +54,8 @@ Keep source inventory independent from job-specific résumé versions. Never inf
   "applicant_reviewed": false
 }
 ```
+
+**Repeatability:** Each experience can have zero, one, or many separately identified achievements. Form 2's optional Achievement Builder supplies action, scope, result and evidence for each. Never merge away source achievements or require all four fields to be filled. A result may be qualitative; numbers are optional. Store each metric's provenance and confirmation individually.
 
 **Evidence status is not binary:** applicant-reported and candidate-confirmed metrics may appear in an **educational draft** when coherent, source-described and accurately scoped, without falsely claiming independent verification. Track verification status in a separate report. A documented source that has merely been named is **not** a document that was inspected.
 
