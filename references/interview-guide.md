@@ -10,10 +10,11 @@ Provide a repeatable job block or paste history:
 - Employer, position, dates, experience type
 - Personal responsibilities and tools
 - Deliverable, workflow and adoption/deployment stage
+- **Optional per-job repeatable Achievement Builder** with Add/Remove Achievement actions and unlimited entries. Each entry has: **Action** (personal contribution), **Scope** (team, audience, volume, process), **Result** (specific outcome and optional number), **Evidence** (baseline → final, units, time period, source, individual/team attribution). Prefer 3 visible compact inputs with measurement details optional/expandable; accept partial responses. Do not require an achievement or create a fourth intake stage.
 - Outcomes and **numbers** (what measured; before → after; units; period; source known to candidate)
 - Was each outcome personal, team, or campaign-level? What did candidate actually contribute?
 - Student organizations, academic projects, volunteering, freelance, honors (optional)
-If user gives a full narrative, extract multiple entries at once. Ask only for contradictions and important incomplete assertions.
+If user gives a full narrative, extract multiple entries and distinct achievements per job at once. Preserve each original achievement, especially quantified ones, without collapsing everything into one generic accomplishment. Ask only for contradictions and important incomplete assertions.
 
 ## Form 3 — Skills + Review
 Separate AI/technical, analytical, creative, professional, and language skills; proficiency only if stated; optional certifications; explicit fact and metric confirmation. Show compact evidence summary and ask for corrections in one place. Request JD after database acceptance.
