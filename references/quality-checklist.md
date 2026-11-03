@@ -16,6 +16,18 @@
 - [ ] Job keywords inserted only where applicant evidence justifies them.
 - [ ] No personal résumé examples or private applicant information committed to public repositories.
 
+## B2. User-supplied resume best practices
+- [ ] Read `references/user-resume-best-practices.md` before tailoring, including its examples as *illustrative only*.
+- [ ] Résumé conveys specific interview-relevant value to recruiters and hiring managers while remaining readable to ATS.
+- [ ] One-page and last-five-year emphasis considered as flexible editorial defaults; no silent deletion of older experience, membership, outcomes, or metrics.
+- [ ] Original style is preserved by default; for permitted restyling use clean black-and-white main-body formatting and standard section headings rather than decoration.
+- [ ] University and degree names are written out fully when styling permits; degree titles use “Master of …”; graduation dates show month/year; education bullets have labels.
+- [ ] Action-oriented experience bullets use Situation/Task/Action/Result thinking with true scope, methods and results, without importing illustrative metrics.
+- [ ] Similar roles within a company grouped only when accurate; distinct responsibilities remain distinct; clients attributed to actual consulting firm without invented entities.
+- [ ] When no numerical results exist, use sourced qualitative indicators (recognition, adoption, progression, foundational work) and never fabricate statistics.
+- [ ] Skills & Interests labels reflect actual content and at least one supported bullet if section is included; language proficiency is not inferred and AI/technical skills remain separate.
+- [ ] Resume does not disguise employment gaps; use cover letter context if applicant supplies factual explanation.
+
 ## C. Format fidelity
 - [ ] Compare source résumé and proposed DOCX/PDF at the same page scale.
 - [ ] Typeface, name/header size, body size, section heading size, bold, italic and underline styles match requested reference.
