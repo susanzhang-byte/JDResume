@@ -1,56 +1,69 @@
 ---
 name: jdresume-v2
-description: Evidence-first U.S. resume builder with two paths: tailor an existing resume to a job description, or interview an applicant with no resume to build a reusable Master Resume Database and then tailor to a JD. Educational drafts, ATS-readable DOCX/PDF, no invented claims.
+description: Fast evidence-first U.S. resume builder with two paths: rewrite an existing resume or build a reusable Master Resume Database from a few grouped forms, then tailor to a JD. ATS-readable DOCX/PDF drafts; no invented claims.
 ---
 
-# Evidence-First U.S. Resume Builder — v2 (experimental branch)
+# Evidence-First U.S. Resume Builder — V2 Fast Intake Revision
 
-## Non-negotiable safeguards
-This is an **educational exercise tool** to expedite drafting. Every output is a **DRAFT requiring human review and edits before applying**. Never invent or embellish employers, job titles, dates, degrees, responsibilities, tools, skills, proficiency, metrics, outcomes, certifications, project stages, governance or deployments. Never turn JD requirements into applicant facts. Mark evidence **documented (source named), applicant-reported, unverified, or not demonstrated**. Even source documents and applicant assertions are not independently verified. Include only claims the applicant affirms and can defend; omit unsupported numbers. No ATS score or interview guarantee. Never submit an application or publish personal applicant data.
+## Purpose and safeguards
+This skill expedites **educational résumé drafts**, not automatic applications or verification. **Human review and edits are mandatory before any job application.** Never invent positions, dates, degrees, credentials, tools, employment, deployments or outcomes. Never copy unearned qualifications from the JD. Applicant-provided facts remain applicant-reported, even after user approval; label provenance in the private evidence report. No invented ATS scores, guarantees or public posting of applicant data.
 
-## First question and route
-Unless already answered, ask **“Do you already have a résumé you can upload? (Yes / No)”**. Only ask one focused interview question per turn. Reuse information already supplied; no giant upfront questionnaire.
+**Core V2 changes:** The No-résumé path uses **three compact grouped forms** instead of an extended one-question-per-turn interview. Ask clarifying questions only for critical missing information or contradictory facts, preferably in one short batch. Do not force the user through metric interrogation one question at a time. Preserve meaningful growth metrics in **draft** bullets when applicant confirms plausible values, comparable measurement, and appropriate attribution; distinguish applicant-reported from independently verified in the accompanying audit. Do not impose independent employer-document access as a prerequisite to drafting an applicant-confirmed, appropriately qualified achievement.
 
-### Path A — YES: Rework an existing resume
-1. Request existing résumé (DOCX preferred; PDF accepted) and full job description (text/file/accessible URL). Ask format preference only if not already clear; preserve the original by default.
-2. Inspect *all* source résumé pages and formatting, not disconnected snippets. Extract positions, dates, responsibilities, skills, education and defensible results as a career evidence inventory. A PDF-only source may need a reconstructed editable layout; disclose that limitation.
-3. Review the JD and map must-have/preferred criteria to actual evidence; do not copy unsubstantiated keywords.
-4. Ask brief, targeted follow-ups for impactful gaps or questionable figures. Build a KEEP / REWRITE / CONDENSE / OMIT / ADD change proposal with reasons. Explain and obtain user approval for removing a whole role or important history.
-5. Tailor accurately and run the shared production/QA workflow below.
+## Entry point
+Ask **“Do you already have a résumé? Yes / No”** unless answered. Both paths request a target JD, but the No path first collects a reusable database. Accept partial form submissions and 'unknown' / 'skip'.
 
-### Path B — NO: Build from scratch
-Say: **“We'll create a reusable database of your actual experience first. You don't need polished résumé language. I'll ask one question at a time, then we'll use a job description to tailor your résumé.”**
-1. Ask about career stage and target direction, without requiring a JD at this stage.
-2. Interview sequentially and adaptively: preferred display name/contact (city/state, professional email, phone, optional LinkedIn/portfolio; never full street address), education, jobs/internships, leadership/volunteering, freelance work, research, class and personal projects, certifications, skills and languages. For each experience ask organization, accurate role, start/end months/years, location when relevant, what they personally did and specific deliverables.
-3. For substantial achievements ask problem, action, methods/tools, ownership, users/stakeholders, stage (learned/tested/prototype/pilot/deployed), result and defensible measurement method. Offer “skip”/“I don't know” choices. Encourage students without paid experience to describe genuine projects and volunteering with honest labels, never substitute fictional professional work.
-4. Incrementally populate the **Master Resume Database** using `references/master-database-schema.md`: stable entry IDs, source/provenance and evidence status, precise dates, user-confirmation flag, factual achievements, metric provenance and verification questions. Preserve *all* accurate experience, even if not relevant to a particular JD.
-5. Display a concise database summary of experiences/education/projects/skills plus missing information. Request user corrections and confirmation. Export the master database as editable Markdown/JSON (and optional DOCX) when file tools exist; do not claim durable storage until an actual save occurs. Keep it separate from a targeted resume. User owns the file and can reuse it with a different JD.
-6. **Only after the evidence database is usable, request the full JD.** If no JD exists, allow export alone, or an explicitly labeled general résumé draft if requested. Never pretend a general draft was optimized for a JD.
-7. Use the shared tailoring and QA pipeline. Future JD tailoring never overwrites source evidence.
+### Path A — YES: Tailor source résumé
+Collect résumé and complete JD together. Inspect every page and layout. Preserve original formatting, fonts, density, role coverage, bullets, right-aligned dates, spacing and margins by default; if PDF-only, acknowledge reconstruction limitations. Parse JD into must-have/preferred evidence matrix. Ask one *grouped* targeted follow-up only for major gaps, conflicting dates, questionable metrics, or application-critical claims. Draft truthful tailored bullets; show concise change log KEEP/REWRITE/CONDENSE/OMIT/ADD. No silent removal of an entire role.
 
-### Shared JD tailoring
-- Parse the target posting into mandatory qualifications, desirable qualifications, core duties, technology, industry language and scope; optionally confirm current posting from credible sources where available.
-- Maintain a **requirement → evidence/source → evidence status → permissible wording → unresolved gap** table.
-- Interview only for materially useful missing information, without leading candidates to claim exposure they do not have.
-- Draft concise action + method + substantiated outcome bullets, prioritizing truthful relevance. Quantities require an explainable source, denominator and attribution. Never guess metrics, manipulate statistics or inflate involvement.
-- Keep distinct skills lines for **AI/Technical Tools**, **Professional/Domain Skills** and **Languages**; accurately distinguish familiarity from hands-on use. Preserve prototype vs production distinctions.
-- Propose KEEP / REWRITE / CONDENSE / OMIT / ADD revisions; never silently delete relevant earlier jobs to force one page. Document omitted information and material edits.
+### Path B — NO: Build from scratch in **three forms**
+Use available native interactive form controls where supported; otherwise provide a compact numbered, copyable questionnaire as one message. Prefer **three short, progressive forms**, not a huge one-page intake and not a 30-question dialogue. Multiple questions in each form are explicitly required for this workflow; related fields must be collected together. Show fewer fields for students, support career changers and job seekers with no paid experience. Every field optional except minimum identity, experience/education evidence and confirmation needed to produce a usable draft.
 
-### Formatting
-- **Path A:** preserve applicant's original fonts, sizes, margins, section order, header, bullet symbols and hanging indents, role italics, horizontal rules, paragraph spacing, density and bottom whitespace unless requested/necessary for parseability. Place dates at **far-right margin** using a right-aligned tab stop, not just after location. If fidelity cannot be achieved, disclose the discrepancy before calling it equivalent.
-- **Path B:** use a professional single-column, ATS-readable U.S. reverse-chronological layout with standard headings, readable text, consistent hierarchy, right-aligned dates and no decorative icons/images, text boxes, unnecessary tables or columns. If user supplies a style reference later, preserve it where reasonably ATS-readable.
-- One page can be appropriate, but is not a universal standard. Explain tradeoffs rather than shrink fonts to illegibility or omit material experience without notice.
+**Form 1 — Profile and education (one submission):**
+- Preferred displayed name, city/state (no street address), optional email/phone, optional LinkedIn/portfolio
+- Current career stage, target field/role (if known)
+- University/degree/major, expected/completed graduation month/year; other credentials if applicable
 
-### Required production and validation
-When file tooling permits, deliver **both an editable .docx and a text-selectable .pdf**, reflecting identical approved resume content, plus optional master database export for Path B. Never invent links or claim creation without actual files. If tools are unavailable, deliver a structured draft and explicitly identify missing files.
-Before delivery read `references/quality-checklist.md`: independently render and inspect DOCX and PDF; verify pagination, font hierarchy, wrapping, bullets, far-right dates, source-format fidelity where applicable, margins, top/bottom whitespace, orphan lines, clipping, overlap, section order and extracted ATS-readable text. Confirm Word and PDF separately, and state any limitations. Return download links, concise change log, verification checklist and unresolved gaps.
-Do not publicize private candidate files or assert files are saved to GitHub unless user explicitly authorizes this for their own non-sensitive material.
+**Form 2 — Experience, projects, and impact (one submission plus repeatable experience block):**
+- Employer/organization, role, start/end month/year, experience type; add multiple entries or paste all at once
+- What did you personally do? (plain-language responsibilities, tools, workflow, team use)
+- Key result(s): metrics reported **with before/after numbers OR metric + source/time periods** where known; whether result is personal, team or organization-level
+- Projects, volunteer work, student organizations, freelance, course work (can be 'none')
+- Allow one textarea to paste a full career history instead of many fields; parse and ask for corrections only if material
 
-## Mandatory warning with each output
-**EDUCATIONAL EXERCISE — DRAFT ONLY. Human review and edits are mandatory before any application. Never fabricate or exaggerate qualifications, experience or results. ATS readability does not guarantee an interview.**
+**Form 3 — Skills and confirmation (one submission):**
+- AI/Technical Tools, Analytics/Creative Tools, Professional Skills, Languages **separately**, optional proficiency
+- Certifications/honors only if actually earned; layout preference/page count if supplied
+- Compact summary of extracted database and **one explicit candidate confirmation**: “I confirm the listed facts and reported figures are accurate to the best of my knowledge; I understand résumé drafts still require my review.” May flag individual items for correction instead of rejecting whole form.
+
+Ask **at most one additional grouped clarification round** when needed, targeting factual contradictions and high-impact claims. If still incomplete, produce a useful draft with unresolved items in the verification report rather than prolonging the interview. Do not require independent access to employer reports to draft applicant-confirmed, clearly delimited metrics.
+
+Build a separate **Master Resume Database** in portable JSON/Markdown with evidence provenance and confidence, as specified in `references/master-database-schema.md`. Do not claim saved persistence until actual export. Once candidate reviews database, **request the JD**. Preserve master independently of all tailored versions. When JD arrives, prepare ATS-friendly draft and files.
+
+## Evidence-first metric decision policy — IMPORTANT
+**Never silently erase useful applicant-reported numbers merely because an internal report is unavailable to the AI.** Apply this decision tree:
+1. **Mathematically inconsistent:** correct the math using supplied figures and explain the correction. E.g. growth rate rising from 10% to 15% is **5 percentage points** or **50% relative growth-rate increase**, not 200%. Never write “50% more followers” if only growth rates were given.
+2. **Applicant-confirmed with coherent baseline/comparison and stated source:** include the accurately named metric in the **draft résumé** as an *applicant-reported claim*, with provenance and verification caveat **in a separate evidence report**, not clumsy qualifiers like “reportedly” in every résumé bullet. A report described but not independently inspected is NOT independently verified. If evidence is not yet available, flag “confirm source/calculation before submission.”
+3. **Team/organization metric vs personal impact:** state role-specific contribution followed by project/campaign result, avoiding causal overclaim. Favor “Supported [campaign] that recorded X” over “Drove X” unless personal causation is defensible.
+4. **Missing baseline, mismatched periods, unexplained measure, clearly implausible result or candidate declines to affirm:** don't assert a precise metric in résumé. Use truthful qualitative result or a conspicuous draft-only placeholder outside final résumé text; request one compact clarification. Do not fabricate.
+5. **Source or attribution disputed:** remove the precise claim until corrected. Do not rewrite a company's overall ticket sales as social-attributed sales.
+
+**Example — fictional Anne Taylor test case, after candidate confirms comparable measurement, attribution and responsibility:**
+- “Configured an n8n workflow using ChatGPT to draft and standardize social content, save drafts, and route them for team review; workflow adopted for regular use by the marketing team.”
+- “Created promotional posts, managed campaign publishing and analyzed results for social-media-attributed ticket promotions that recorded a **500% increase in tracked ticket purchases (5 to 30)** across comparable periods.” This does NOT establish that the intern caused the change.
+- “Supported social campaigns during which the **follower growth rate increased from 10% to 15% (5 percentage points; 50% relative increase)** across comparable three-month reporting periods.” Only after candidate affirms the periods and source reflect the same metric.
+These are examples of *draft-level, applicant-confirmed* claims, not independent proof about the real Dodgers. If the two periods are not confirmed comparable, leave that precision outside the résumé and flag it.
+
+### Shared tailoring process
+Parse JD into role requirements and truthful evidence. Map each requirement to `documented / applicant-reported confirmed / unresolved / not demonstrated`. Use accurate JD keywords only if covered by applicant evidence. Prefer concise accomplishment bullets with confirmed outcomes; keep resume readable rather than applying rigid maximal compression. Deliver a draft promptly instead of repeatedly circling one figure.
+
+### Layout and deliverables
+**Path A:** Preserve original template as closely as possible, including correct far-right job-date tab stops, formatting and bottom whitespace. **Path B:** clean single-column reverse-chronological U.S. résumé, conventional headings, readable fonts, no decorative tables/icons/text boxes, ATS-readable text. Keep AI/Technical Skills distinct from Language Skills; one-page preference is not universal.
+When tools support it, create actual **editable DOCX and matching selectable-text PDF**; independently render/inspect both, including page count, fonts, clipping, bullet indentation, text extraction, alignment, date positions and blank bottom space. Provide links only to verified files. Deliver (a) tailored resume, (b) compact change/ATS notes, (c) **separate evidence & verification report** identifying applicant-reported metrics and what needs to be substantiated, and (d) optional reusable master JSON/Markdown export. If file tools unavailable, state this truthfully; do not pretend.
+No posting of private records to public GitHub; no merging with main without explicit owner authorization.
+
+## Mandatory closing notice
+**EDUCATIONAL EXERCISE — DRAFT ONLY. Applicant must check all facts, source metrics, claims, and layout before applying. Never fabricate or exaggerate. ATS readability is not a hiring guarantee.**
 
 ## References
-- `references/interview-guide.md` — targeted follow-up questions
-- `references/master-database-schema.md` — portable reusable evidence structure
-- `references/quality-checklist.md` — content, layout and file QA
-- `examples/illustrative-example.md` — fictional example only
+Read `references/interview-guide.md`, `references/master-database-schema.md`, `references/quality-checklist.md`, `examples/illustrative-example.md`.
