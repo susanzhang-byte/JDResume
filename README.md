@@ -1,36 +1,35 @@
-# JDResume v2 — Evidence-First U.S. Resume Builder (experimental)
+# JDResume V2 — Fast Evidence-First U.S. Resume Builder
 
-> **Separate proposed v2 branch. The original JDResume main branch is unchanged. Do not merge until the owner explicitly approves.**
+> **Experimental review branch only: `v2-master-resume-builder`. The original `main` branch stays unchanged. No merge without owner approval.**
 
-**Purpose:** Expedite creation of truthful, ATS-readable U.S. résumé **drafts** for two groups:
+Create **ATS-readable, truthful educational résumé drafts** for two applicant types:
 
-| User | Workflow | Deliverables |
-| --- | --- | --- |
-| **Has a résumé** | Upload résumé + JD → evidence check → rewrite and preserve source layout | Tailored **DOCX + PDF** |
-| **No résumé** | One-question-at-a-time career interview → reusable **Master Resume Database** → obtain JD → tailored draft | Portable database **plus DOCX + PDF** |
+| Route | Intake | Output |
+|---|---|---|
+| **Already have a résumé** | Upload résumé + JD together; 1 concise evidence check only if needed | Tailored editable **DOCX + PDF**, original style preserved by default |
+| **No résumé** | **3 grouped forms**: Profile/Education → Experience/Projects/Metrics → Skills/Review; then request JD | Reusable Master Resume Database + tailored **DOCX + PDF** |
 
-Opening question: **“Do you already have a résumé you can upload? (Yes / No)”**
+### Why this revision?
+The first V2 interview took too many turns and omitted applicant-supplied growth statistics merely because the assistant had not independently accessed internal records. This version reduces intake friction while retaining evidence-first precision.
 
-The reusable Master Resume Database is a factual career inventory, *not* a finished résumé. It can support many JDs without inventing applicant experience. The database should be exported as JSON/Markdown; the skill must not claim it has saved data when no persistent storage action occurred.
+### Metrics: truthful, useful, and correctly scoped
+- **Do not fabricate or distort figures.** User-confirmed, coherent metrics from a described report **can appear in the résumé draft**, with a *separate* verification checklist. An internal report mentioned by the applicant is still **not independently verified** by the tool.
+- Convert reported data correctly: follower **growth rate** 10% → 15% is **+5 percentage points / +50% relative growth-rate increase**, not +200%; ticket purchases 5 → 30 is **+500%**, if periods/units are comparable.
+- Distinguish *supported campaign-level performance* from *individual causation*. Do not say an intern “drove” team ticket-sales growth without a defensible basis.
+- When numbers are contradictory, periods aren't comparable, or candidate refuses to affirm source/accuracy, omit specific figure or flag it outside the résumé; never invent proof.
+- This is an **educational exercise tool**, not independent employment verification. **Human review and edits are mandatory** before real application. No ATS pass/interview guarantees.
 
-## Mandatory principles
-- This skill is **for educational exercises**. **Every résumé is a DRAFT needing human review, corrections and edits before job applications.**
-- **Never fabricate, exaggerate or silently infer** jobs, dates, education, skills, certifications, production deployments or achievements. Applicant-reported facts are not independently verified.
-- Never invent metrics; if a figure cannot be substantiated, omit it and retain a defensible qualitative achievement.
-- Tailor JD keywords **only when the candidate has evidence**. No fabricated ATS scores, ATS pass guarantees or interview guarantees.
-- For existing résumés preserve original formatting, work history, full-page density and **dates aligned to the right margin**. Explain changes before deleting substantive roles.
-- For first-time résumés use a simple, single-column ATS-readable U.S. template. AI/Technical Skills and Languages must appear separately.
-- **Generate and independently inspect actual editable Word and PDF files** when file tools permit. Don't fake file links or claim layout checks not performed.
-- Do not place individual applicants' personal records in a public repository.
+### Quality retained
+- Original résumé layout and role coverage preserved (Path A), including right-aligned job dates and page density.
+- Single-column ATS-readable U.S. layout (Path B); AI/technical and language skills separate.
+- Independently inspect both created Word and PDF drafts; no invented links, file claims or testing statements.
+- Database stays separate from per-JD versions. No public upload of candidate data.
 
 ## Files
-- [SKILL.md](SKILL.md) — full branching interview, evidence-first tailoring and formatting workflow
-- [references/interview-guide.md](references/interview-guide.md) — original interview guidance
-- [references/master-database-schema.md](references/master-database-schema.md) — added reusable data structure
-- [references/quality-checklist.md](references/quality-checklist.md) — original quality standards
-- [examples/illustrative-example.md](examples/illustrative-example.md) — fictional illustration only
+- [SKILL.md](SKILL.md) — two routes, short grouped forms, metric policy and delivery
+- [references/interview-guide.md](references/interview-guide.md) — three-form intake
+- [references/master-database-schema.md](references/master-database-schema.md) — portable evidence model
+- [references/quality-checklist.md](references/quality-checklist.md) — acceptance tests
+- [examples/illustrative-example.md](examples/illustrative-example.md) — fictional examples
 
-## Installation
-Use the branch ZIP and load the skill instructions into a compatible skill environment. GitHub hosting alone does **not** install the skill to ChatGPT.
-
-This branch exists for review and testing, **not merging or publishing candidate records**.
+GitHub hosting does not install the skill into ChatGPT automatically. This branch can be tested without merging.
