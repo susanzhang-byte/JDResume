@@ -8,7 +8,7 @@ JDResume is a reusable AI skill designed to **expedite U.S.-market résumé draf
 
 - **Every generated résumé is a DRAFT** and must be reviewed, corrected, and edited by a human before use.
 - **Never invent, exaggerate, or misrepresent** jobs, dates, employers, degrees, responsibilities, technical proficiency, project deployment, certifications, outcomes, or metrics. Do not convert inferred capabilities into facts.
-- Only include claims the applicant confirms and can substantiate. **Unverified metrics should be removed or marked for verification**, not silently retained.
+- **Preserve applicant-supplied original claims and quantitative data by default** in educational résumé drafts, including efficiency, growth, adoption and revenue figures. The assistant not having access to an internal report is **not** grounds for deleting a source metric. Keep a separate applicant-verification checklist. Never invent new figures or imply independent verification. If arithmetic or attribution conflicts appear, flag them and obtain approval before changing or removing an original metric.
 - Preserve the original résumé's layout and work-history coverage by default. Propose deletions with a written rationale and obtain user agreement rather than silently removing relevant experience.
 - ATS optimization means clear, parseable structure and relevant truthful terminology. **No universal ATS score, guaranteed pass, or guaranteed interview** exists.
 - Respect privacy. Do not publish actual applicants' résumés or personal data in a public repository. This repository contains guidance, not an individual's résumé.
@@ -20,11 +20,11 @@ JDResume is a reusable AI skill designed to **expedite U.S.-market résumé draf
 3. Analyzes essential and preferred qualifications, separating exact requirements from nice-to-haves.
 4. Builds a **claim-to-evidence matrix**: verified / applicant-reported / unverified / not demonstrated.
 5. Conducts a concise, one-question-at-a-time interview to fill material evidence gaps.
-6. Proposes a **keep / rewrite / condense / omit / add** change log *before* deleting content.
+6. Proposes a **keep / rewrite / condense / omit / add** change log *before* deleting content. Protects every original quantified achievement and flags verification outside the résumé rather than stripping numbers automatically.
 7. Drafts truthful, accomplishment-focused bullets and separates documented AI tools from verified implementation achievements.
 8. Produces an editable Word draft and optionally a PDF; retains user-provided style by default.
 9. Renders and audits both formats independently: page count, margins, font, line wrapping, dates right-aligned, section hierarchy, bullets, spacing, and bottom whitespace.
-10. Returns the draft with a claim-verification checklist, change log, unresolved gaps, and a clear **human-review-required** warning.
+10. Returns the draft with a claim-verification checklist, source-data preservation audit, change log, unresolved gaps, and a clear **human-review-required** warning.
 
 ## Installation / use
 
