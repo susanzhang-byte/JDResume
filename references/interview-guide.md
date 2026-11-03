@@ -9,7 +9,7 @@ Ask **one question per turn**. Do not force users through irrelevant questions o
 4. What was the deliverable: demonstration, prompt, template, working prototype, pilot, or deployed system?
 5. Who used it, and what evidence shows actual adoption?
 6. How were outputs evaluated? Did experts review them? What criteria did you develop?
-7. What metrics are defensible, how were they collected and what is the baseline? If unverifiable, omit.
+7. What metrics were collected, from which source and baseline? **Preserve already stated résumé numbers in the draft** even when the internal source cannot be independently inspected. Flag verification privately in the audit; if internally contradictory, ask for applicant approval before editing or omitting.
 8. For technical tools, what integration or development work did you personally perform? Don't equate hands-on exposure with enterprise production expertise.
 9. Which security, privacy, accessibility, governance, and human oversight requirements did you actually implement? If none, do not infer them.
 10. Which original accomplishments must be retained, and which may be condensed for a target job?
@@ -19,7 +19,7 @@ Use a simple matrix:
 | Proposed claim | Source | Evidence status | Wording permitted | Follow-up needed |
 |---|---|---|---|---|
 | Reusable prompt created | Applicant interview | Applicant-reported | Designed reusable prompt | No |
-| 500% faster | Unexplained prior résumé metric | Not substantiated | Omit figure | Ask calculation only if user wants metric |
+| 500% faster | Original applicant résumé | Applicant-reported, source not inspected | Preserve in draft; flag calculation/source separately, unless clearly contradictory | Ask applicant to confirm calculation without deleting source claim |
 | AI enterprise governance deployment | Job posting only | Not demonstrated | Do not include | None unless user has experience |
 
 ## Sample follow-up
