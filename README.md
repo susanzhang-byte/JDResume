@@ -2,7 +2,7 @@
 
 > **Educational exercise tool. Drafts only. Human review is mandatory. Never fabricate information on a job application.**
 
-JDResume is a reusable AI skill designed to **expedite U.S.-market résumé drafting and job-description tailoring for Applicant Tracking Systems (ATS)**. It helps users organize verified experience, translate job requirements into evidence-backed résumé bullets, and check formatting. It is **built for exercise and learning purposes**; it is not a credential-verification service, recruiter, employment adviser, guarantee of an interview, or automatic application tool.
+JDResume is a reusable AI skill designed to **expedite U.S.-market résumé drafting and job-description tailoring for Applicant Tracking Systems (ATS)**. V1 now incorporates the owner's attached **Resume Best Practices** standards as an explicit editorial reference. It helps users organize verified experience, translate job requirements into evidence-backed résumé bullets, and check formatting. It is **built for exercise and learning purposes**; it is not a credential-verification service, recruiter, employment adviser, guarantee of an interview, or automatic application tool.
 
 ## Essential notice
 
@@ -10,6 +10,7 @@ JDResume is a reusable AI skill designed to **expedite U.S.-market résumé draf
 - **Never invent, exaggerate, or misrepresent** jobs, dates, employers, degrees, responsibilities, technical proficiency, project deployment, certifications, outcomes, or metrics. Do not convert inferred capabilities into facts.
 - **Preserve applicant-supplied original claims and quantitative data by default** in educational résumé drafts, including efficiency, growth, adoption and revenue figures. The assistant not having access to an internal report is **not** grounds for deleting a source metric. Keep a separate applicant-verification checklist. Never invent new figures or imply independent verification. If arithmetic or attribution conflicts appear, flag them and obtain approval before changing or removing an original metric.
 - Preserve the original résumé's layout and work-history coverage by default. Propose deletions with a written rationale and obtain user agreement rather than silently removing relevant experience.
+- **User-supplied editorial standards:** interview-focused résumé, concise one-page target with last-five-year relevance priority, black-and-white ATS-friendly presentation, full degree naming and month/year dates, labeled education bullets, strong action verbs and STAR results, grounded qualitative impact, and labeled skills/language proficiency. These are editorial defaults, not a license to erase older roles or original numbers.
 - ATS optimization means clear, parseable structure and relevant truthful terminology. **No universal ATS score, guaranteed pass, or guaranteed interview** exists.
 - Respect privacy. Do not publish actual applicants' résumés or personal data in a public repository. This repository contains guidance, not an individual's résumé.
 
@@ -36,6 +37,7 @@ Suggested trigger: “Use JDResume to draft a U.S. ATS-readable résumé for thi
 
 - [`SKILL.md`](SKILL.md): operational instructions and guardrails
 - [`references/quality-checklist.md`](references/quality-checklist.md): detailed content, layout, and evidence acceptance tests
+- [`references/user-resume-best-practices.md`](references/user-resume-best-practices.md): user's attached résumé standards, examples and reconciliation rules
 - [`references/interview-guide.md`](references/interview-guide.md): evidence-gathering questions
 - [`examples/illustrative-example.md`](examples/illustrative-example.md): fictional example (not an actual candidate résumé)
 
