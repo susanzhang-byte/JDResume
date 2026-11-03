@@ -7,7 +7,7 @@ Create **ATS-readable, truthful educational résumé drafts** for two applicant 
 | Route | Intake | Output |
 |---|---|---|
 | **Already have a résumé** | Upload résumé + JD together; 1 concise evidence check only if needed | Tailored editable **DOCX + PDF**, original style preserved by default |
-| **No résumé** | **3 grouped forms**: Profile/Education → Experience/Projects/Metrics → Skills/Review; then request JD | Reusable Master Resume Database + tailored **DOCX + PDF** |
+| **No résumé** | **3 grouped forms**: Profile/Education → Experience/Projects/Metrics (with optional repeatable Achievement Builder per job) → Skills/Review; then request JD | Reusable Master Resume Database + tailored **DOCX + PDF** |
 
 ### Why this revision?
 The first V2 interview took too many turns and omitted applicant-supplied growth statistics merely because the assistant had not independently accessed internal records. This version reduces intake friction while retaining evidence-first precision.
@@ -18,6 +18,9 @@ The first V2 interview took too many turns and omitted applicant-supplied growth
 - Distinguish *supported campaign-level performance* from *individual causation*. Do not say an intern “drove” team ticket-sales growth without a defensible basis.
 - When numbers are contradictory, periods aren't comparable, or candidate refuses to affirm source/accuracy, omit specific figure or flag it outside the résumé; never invent proof.
 - This is an **educational exercise tool**, not independent employment verification. **Human review and edits are mandatory** before real application. No ATS pass/interview guarantees.
+
+### Optional Achievement Builder in Form 2
+For every job or internship, users can click **Add achievement** repeatedly to capture **Action / Scope / Result / Evidence**, including concrete metrics and how they were measured. The builder is optional, accepts partial entries, and stays within the existing second form. Users can alternatively paste an entire work history. All accomplishments are preserved separately in the master database; job-specific résumé bullets are selected only after receiving the target JD.
 
 ### Quality retained
 - Original résumé layout and role coverage preserved (Path A), including right-aligned job dates and page density.
