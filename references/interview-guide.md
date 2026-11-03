@@ -1,29 +1,29 @@
-# Evidence-gathering interview
+# V2 Fast Intake — Grouped Form Guide
 
-Ask **one question per turn**. Do not force users through irrelevant questions or repeat what they have already answered.
+**Do not ask one question per turn by default.** The No-resume route uses 3 compact forms with partial submissions and no invented example choices preselected as factual answers. When controls are unavailable, use the same grouped fields in concise plain text. Avoid >1 follow-up batch except where material contradictions block accuracy.
 
-## Start with concrete project behavior
-1. What specific business or career problem were you trying to solve?
-2. What did you personally do, as distinct from the team or AI assistant?
-3. What tools, data sources and workflows did you actually use?
-4. What was the deliverable: demonstration, prompt, template, working prototype, pilot, or deployed system?
-5. Who used it, and what evidence shows actual adoption?
-6. How were outputs evaluated? Did experts review them? What criteria did you develop?
-7. What metrics are defensible, how were they collected and what is the baseline? If unverifiable, omit.
-8. For technical tools, what integration or development work did you personally perform? Don't equate hands-on exposure with enterprise production expertise.
-9. Which security, privacy, accessibility, governance, and human oversight requirements did you actually implement? If none, do not infer them.
-10. Which original accomplishments must be retained, and which may be condensed for a target job?
+## Form 1 — Profile + Education
+Display name; location (city/state); optional professional contact; desired career field; career stage; school, actual degree/major and graduation date. Do not force applicants to disclose private street address or a real phone number in tests.
 
-## Evidence record schema
-Use a simple matrix:
-| Proposed claim | Source | Evidence status | Wording permitted | Follow-up needed |
-|---|---|---|---|---|
-| Reusable prompt created | Applicant interview | Applicant-reported | Designed reusable prompt | No |
-| 500% faster | Unexplained prior résumé metric | Not substantiated | Omit figure | Ask calculation only if user wants metric |
-| AI enterprise governance deployment | Job posting only | Not demonstrated | Do not include | None unless user has experience |
+## Form 2 — Work + Projects + Impact
+Provide a repeatable job block or paste history:
+- Employer, position, dates, experience type
+- Personal responsibilities and tools
+- Deliverable, workflow and adoption/deployment stage
+- Outcomes and **numbers** (what measured; before → after; units; period; source known to candidate)
+- Was each outcome personal, team, or campaign-level? What did candidate actually contribute?
+- Student organizations, academic projects, volunteering, freelance, honors (optional)
+If user gives a full narrative, extract multiple entries at once. Ask only for contradictions and important incomplete assertions.
 
-## Sample follow-up
-“Your project sounds relevant. Did users actually adopt the workflow, or was it only a demonstration? How do you know?”
+## Form 3 — Skills + Review
+Separate AI/technical, analytical, creative, professional, and language skills; proficiency only if stated; optional certifications; explicit fact and metric confirmation. Show compact evidence summary and ask for corrections in one place. Request JD after database acceptance.
+
+## Metric policy examples
+- 10% → 15% follower **growth rates** = +5 percentage points, +50% relative **growth-rate** change, not +200% or +50% follower count.
+- 5 → 30 tracked tickets = +25 tracked tickets, +500% relative, but only comparable periods/units and reliable attribution support a résumé-ready campaign metric.
+- A candidate can report an internal analytics report without showing it to the AI. **If the user confirms source, comparability, accuracy and job-relevant role**, use the metric in an educational **draft** while flagging applicant-reported/not independently verified **outside the résumé**. Do not remove compelling numbers automatically.
+- If no baseline or source/candidate confirmation, omit the exact figure rather than guessing it.
+- Claiming “I increased sales by 500%” implies individual causation; instead use “Contributed promotional content and analysis to a campaign that recorded 500% growth in tracked sales” if this relationship is defensible.
 
 ## Interview stop condition
-Once there is sufficient reliable evidence for a truthful draft, stop interviewing and create the draft. List unresolved qualifications separately rather than forcing an applicant to claim a match.
+As soon as forms produce enough evidence, move to approval and JD. Do not drag one internship through dozens of turns. No “we will ask a question then another” as default UI.
