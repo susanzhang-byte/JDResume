@@ -1,42 +1,33 @@
-# JDResume — Quality Acceptance Checklist
+# JDResume V2 — Quality Acceptance Checklist
 
-## A. Truthfulness and provenance
-- [ ] Every employer, title, date, degree and certification matches user-supplied records.
-- [ ] Every AI tool or technology was explicitly confirmed as used; familiarity is not misrepresented as integration or deployment.
-- [ ] Every metric is applicant-confirmed and substantiable. If not, remove it or flag it for verification; never substitute a guessed number.
-- [ ] The JD's requirements are never copied as applicant achievements without evidence.
-- [ ] A proof of concept, prototype, pilot, and production rollout are distinguished.
-- [ ] No formal AI governance, compliance, security, or NIST certification is claimed without evidence.
-- [ ] Draft contains no invented ROI, ATS score, recruiter endorsement, or outcome.
+## Speed & interaction
+- [ ] Ask Yes/No résumé question only once unless already known.
+- [ ] No-résumé path uses **three compact grouped forms**: (1) profile/education (2) experience/projects/impact (3) skills/review.
+- [ ] Form fields are optional/partial where feasible. Repeatable experience blocks or paste-all narrative accepted.
+- [ ] No prolonged one-question-at-a-time interrogation; at most one grouped clarification batch unless safety/correctness truly requires more.
+- [ ] After database approval, ask for JD, then produce draft; don't keep delaying delivery.
 
-## B. Content change control
-- [ ] Original roles and bullets inventoried before tailoring.
-- [ ] Proposed changes logged: KEEP / REWRITE / CONDENSE / OMIT / ADD, with rationale.
-- [ ] Material deletion approved or clearly disclosed, particularly early careers that demonstrate transferable value.
-- [ ] Job keywords inserted only where applicant evidence justifies them.
-- [ ] No personal résumé examples or private applicant information committed to public repositories.
+## Evidence and metrics
+- [ ] No invented employers, dates, credentials, tools, roles, results or numbers.
+- [ ] Correct relative percentage vs percentage points, follower **growth rate** vs follower **count**, and before/after units.
+- [ ] Track source type, inspected/not inspected, comparable periods, attribution and applicant confirmation in Master Database.
+- [ ] **Applicant-confirmed, coherent, appropriately attributed metrics are included in draft bullets** when supported by user testimony and mathematical checks, even if the AI has not inspected a confidential report.
+- [ ] **Do not state independent verification** of a user-reported source. Provide verification notes **outside** résumé; don't sprinkle “reportedly” throughout polished bullets.
+- [ ] Team/campaign results must not be ascribed causally to intern unless candidate substantiates ownership and contribution.
+- [ ] Missing or inconsistent metrics remain outside résumé until resolved; do not invent or simply accept a contradicted 200% claim.
+- [ ] JD keywords justified by evidence; no false ATS guarantees.
 
-## C. Format fidelity
-- [ ] Compare source résumé and proposed DOCX/PDF at the same page scale.
-- [ ] Typeface, name/header size, body size, section heading size, bold, italic and underline styles match requested reference.
-- [ ] Section order, margins, paragraph spacing, line height and bottom whitespace match reference unless approved change.
-- [ ] Job dates align at the far RIGHT of their lines (prefer right-aligned tab stops, not a string of spaces).
-- [ ] Job title placement and italics match reference.
-- [ ] Bullets use matching indentation, hanging indents and consistent symbols.
-- [ ] AI / Technical Skills and Language Skills use DIFFERENT bullets/entries.
-- [ ] No unintended mixed fonts or arbitrary small type to satisfy one-page constraint.
-- [ ] Rendering has no clipped text, overlap, widows, or unexplained blank bottom area.
-- [ ] All sections remain readable without tables/text boxes used solely for decoration.
+## Resume formatting
+- [ ] Existing résumé typography, section order, margin, density, bullets and bottom whitespace preserved unless change agreed.
+- [ ] Dates at far-right via actual tab stops.
+- [ ] No unjustified deletion of roles to force one page.
+- [ ] From-scratch template single-column, standard ATS headings, readable fonts, no decorative layout.
+- [ ] AI/technical, professional, and language skills distinct.
 
-## D. Output verification
-- [ ] Actual DOCX exists and opens.
-- [ ] Actual PDF exists and opens.
-- [ ] Independently render the DOCX to PDF/images to inspect its pagination.
-- [ ] Compare DOCX-rendered result with final PDF.
-- [ ] Both satisfy the specified page count or differences are disclosed.
-- [ ] Text is searchable/selectable and line order is reasonable.
-- [ ] State the renderer used and warn that Microsoft Word may vary with installed fonts.
-- [ ] Final response labels files DRAFT and requires HUMAN REVIEW.
-
-## E. Before application
-Applicant must personally verify facts, dates, results, technical claims, spelling, links, and appearance in the software they will use to submit. Never claim an ATS guarantee.
+## File output and audit
+- [ ] Actual DOCX and PDF generated when tools available; content identical; links verified.
+- [ ] DOCX and PDF independently rendered/visually inspected for clipping, page count, spacing, right-aligned dates, orphan lines, bullets and blank bottom.
+- [ ] PDF selectable text with sensible extraction order; Word editable.
+- [ ] Separate applicant-reported evidence checklist and concise edit log provided.
+- [ ] All files labeled educational drafts, mandatory human review.
+- [ ] No private candidate records committed to public GitHub; master database export only with actual file creation.
