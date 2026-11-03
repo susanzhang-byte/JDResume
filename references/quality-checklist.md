@@ -4,6 +4,9 @@
 - [ ] Ask Yes/No résumé question only once unless already known.
 - [ ] No-résumé path uses **three compact grouped forms**: (1) profile/education (2) experience/projects/impact (3) skills/review.
 - [ ] Form fields are optional/partial where feasible. Repeatable experience blocks or paste-all narrative accepted.
+- [ ] Form 2 has an **optional, repeatable Achievement Builder per experience** (Action, Scope, Result, Evidence), with Add/Remove controls or plain-text fallback.
+- [ ] Multiple achievements per job are retained as separate master records, with original numerical outcomes preserved and no mandatory fourth form.
+- [ ] A comprehensive source history can produce a detailed résumé; don't arbitrarily reduce substantive accomplishments to generic bullets.
 - [ ] No prolonged one-question-at-a-time interrogation; at most one grouped clarification batch unless safety/correctness truly requires more.
 - [ ] After database approval, ask for JD, then produce draft; don't keep delaying delivery.
 
